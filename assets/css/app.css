@@ -1,0 +1,335 @@
+body {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 100vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    font-family: "Exo",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-size: 16px;
+    color: #525f65;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: unset !important;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+}
+
+.preloader-wrapper.active {
+    display: block;
+    margin: 50px auto;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    word-break: break-word;
+    margin-top: 0;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+}
+
+a {
+    color: #f9a825;
+}
+
+.brand-logo {
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%;
+    font-size: 0;
+    font-weight: 700;
+}
+
+.brand-logo img {
+    max-height: 100%;
+    padding: 5px 0;
+}
+
+nav .sidenav-trigger {
+    height: 100%;
+    margin-left: 0;
+    font-size: 40px;
+}
+
+.logo-sidenav {
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.logo-sidenav a{
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-sidenav img {
+    padding: 10px 0;
+    max-height: 100px;
+    width: 100%;
+    margin-left: auto;
+    margin-left: auto;
+    -o-object-fit: contain;
+    object-fit: contain;
+    -o-object-position: center center;
+    object-position: center center;
+}
+
+.sidenav li>a {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #283593;
+}
+
+.pages {
+    min-height: 100vh;
+}
+
+.site-content {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+    -moz-box-flex: 1;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+}
+
+.banner {
+    position: relative;
+    min-height: calc(250px + 2vw);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 20px 0;
+    background: url(../img/icon-outline.svg) 90% 25% no-repeat fixed;
+    background-size: auto 400px, cover;
+}
+
+.banner:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(76, 82, 158, 0.9);
+}
+
+.banner .container {
+    position: relative;
+    z-index: 2;
+}
+
+
+.banner h1 {
+    font-size: calc(35px + 2vw);
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.banner span {
+    font-weight: 300;
+}
+
+.banner p {
+    font-weight: 400;
+    color: #fff;
+}
+
+.movie-recommend {
+    padding-bottom: 20px;
+}
+
+.movie-recommend .card-title {
+    font-weight: 400;
+}
+
+.title-recommend {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    vertical-align: middle;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.title-recommend i {
+    margin-right: 8px;
+    
+}
+
+.title-recommend h5 {
+    font-weight: 700;
+    margin-bottom: unset;
+}
+
+.movie-upcoming {
+    padding-top: 20px;
+}
+
+.contact-me {
+    background-color: #eee;
+    margin: 30px auto;
+    position: relative;
+    z-index: 2;
+    border-radius: 3px;
+}
+
+.about-me {
+    margin: 30px 0;
+}
+
+.about-me .card-image {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient( 180deg,  rgba(44,83,131,1) 18.9%, rgba(95,175,201,1) 91.1% );
+}
+
+.about-me .card-image img {
+    max-width: 40%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.about-me .card-image h5{
+    font-size: 26px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.about-me .card-image p{
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+    margin: 0;
+}
+
+.card-content table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    display: block;
+    position: relative;
+}
+
+.card-content table thead{
+    border: 0;
+    border-right: 1px solid rgba(0,0,0,.12);
+    display: block;
+    float: left;
+}
+
+.card-content table thead tr{
+    display: block;
+    padding: 0 10px 0 0;
+}
+
+.card-content table tr{
+    border: 0;
+    padding: 0 10px;
+}
+
+.card-content table th,
+.card-content table td{
+    margin: 0;
+    vertical-align: top;
+}
+
+.card-content table th {
+    display: block;
+    text-align: right;
+}
+
+.card-content table tbody{
+    display: block;
+    width: auto;
+    position: relative;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.card-content table tbody tr{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.card-content table td{
+    display: block;
+    min-height: 1.25rem;
+    text-align: left;
+}
+
+.site-footer .footer-copyright {
+    padding: 20px 0;
+}
+
+.site-footer .footer-copyright p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.site-footer .footer-copyright span {
+    color: salmon;
+}
+
+@media (max-width: 390px){
+    .banner {
+        background-position: 160% 25%;
+        background-size: auto 300px, cover;
+    }
+    .site-footer .footer-copyright p {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 365px){
+    .contact-me {
+        padding: 35px;
+    }
+}
+
+@media (max-width: 320px){
+    .site-footer .footer-copyright p {
+        font-size: 12px;
+    }
+}
+
